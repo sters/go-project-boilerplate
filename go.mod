@@ -3,6 +3,6 @@ module github.com/sters/go-project-boilerplate
 go 1.15
 
 require (
-	github.com/golangci/golangci-lint v1.37.1
+	github.com/golangci/golangci-lint v1.38.0
 	github.com/quasilyte/go-consistent v0.0.0-20200404105227-766526bf1e96
 )
