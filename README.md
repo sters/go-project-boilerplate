@@ -26,8 +26,18 @@ My go project boilerplate.
 
 ## TODO when use this
 
-- [ ] Change `cmd/xxxxx` directory name
 - [ ] Change run task in `Makefile`
 - [ ] Change package name in `go.mod`
-- [ ] Change main in `.goreleaser.yml`
 - [ ] Update `README.md`
+
+---
+
+## Install
+
+```shell
+go get github.com/sters/go-project-boilerplate
+```
+
+## Usage
+
+....

@@ -11,12 +11,11 @@ bootstrap-tools:
 
 .PHONY: run
 run:
-	go run cmd/command/main.go
+	go run main.go $(ARGS)
 
 .PHONY: lint
 lint:
 	$(GOBIN)/golangci-lint run -v ./...
-	$(GOBIN)/go-consistent -v ./...
 
 .PHONY: lint-fix
 lint-fix:
