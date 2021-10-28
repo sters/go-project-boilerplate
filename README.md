@@ -35,8 +35,10 @@ My go project boilerplate.
 ## Install
 
 ```shell
-go get github.com/sters/go-project-boilerplate
+go install github.com/sters/go-project-boilerplate@latest
 ```
+
+or use specific version from [Releases](https://github.com/sters/go-project-boilerplate/releases).
 
 ## Usage
 
