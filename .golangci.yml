@@ -11,15 +11,16 @@ linters-settings:
 linters:
   enable-all: true
   disable:
-    - wsl
+    - cyclop
+    - exhaustive
     - exhaustivestruct
     - exhaustruct
-    - exhaustive
-    - godox
     - funlen
-    - gomnd
     - gocognit
-    - cyclop
+    - godox
+    - gomnd
+    - testpackage
+    - wsl
 
 issues:
   exclude-rules:
