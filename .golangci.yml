@@ -30,3 +30,15 @@ issues:
       linters: ["forbidigo"]
     - text: "is too short for the scope of its usage"
       linters: ["varnamelen"]
+    - path: _test\.go
+      linters:
+        - dupl
+        - funlen
+        - gocyclo
+        - gomnd
+        - lll
+        - goconst
+        - testpackage
+        - goerr113
+        - gosec
+        - paralleltest
