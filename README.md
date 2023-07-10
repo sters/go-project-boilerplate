@@ -26,7 +26,7 @@ My go project boilerplate.
 
 ## TODO when use this
 
-- [ ] Change run task in `Makefile`
+- [ ] Change run task in `Makefile` if needed
 - [ ] Change package name in `go.mod`
 - [ ] Update `README.md`
 
