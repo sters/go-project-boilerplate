@@ -12,6 +12,7 @@ linters:
   enable-all: true
   disable:
     - cyclop
+    - depguard
     - exhaustive
     - exhaustivestruct
     - exhaustruct
