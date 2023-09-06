@@ -1,8 +1,8 @@
 module github.com/sters/go-project-boilerplate/tools
 
-go 1.20
+go 1.21
 
-require github.com/golangci/golangci-lint v1.53.3
+require github.com/golangci/golangci-lint v1.54.2
 
 require (
 	4d63.com/gocheckcompilerdirectives v1.2.1 // indirect
