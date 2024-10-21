@@ -1,3 +1,3 @@
 module github.com/sters/go-project-boilerplate
 
-go 1.21
+go 1.23
