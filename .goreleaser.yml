@@ -10,4 +10,5 @@ builds:
   goarch:
     - 386
     - amd64
+    - arm64
   main: ./main.go
