@@ -26,9 +26,11 @@ jobs:
 
     - name: Commit badges
       if: github.ref == 'refs/heads/main'
-      uses: suzuki-shunsuke/commit-action@v0.0.9
+      uses: planetscale/ghcommit-action@v0
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
         commit_message: "Update coverage badges"
-        commit_options: "--allow-empty"
+        repo: ${{ github.repository }}
+        branch: ${{ github.head_ref || github.ref_name }}
         file_pattern: "docs/*.svg"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
