@@ -26,7 +26,7 @@ jobs:
 
     - name: Commit badges
       if: github.ref == 'refs/heads/main'
-      uses: planetscale/ghcommit-action@v0
+      uses: planetscale/ghcommit-action@v0.2.15
       with:
         commit_message: "Update coverage badges"
         repo: ${{ github.repository }}
