@@ -1,6 +1,7 @@
 coverage:
   badge:
     path: docs/coverage.svg
+push:
 
 comment:
   enable: true
