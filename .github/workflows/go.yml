@@ -26,7 +26,7 @@ jobs:
 
     - name: Commit badges
       if: github.ref == 'refs/heads/main'
-      uses: suzuki-shunsuke/commit-action@v1
+      uses: suzuki-shunsuke/commit-action@v0.0.9
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         commit_message: "Update coverage badges"
