@@ -28,9 +28,9 @@ jobs:
       if: github.ref == 'refs/heads/main'
       uses: planetscale/ghcommit-action@v0.2.15
       with:
-        commit_message: "Update coverage badges"
+        commit_message: Update coverage badges
         repo: ${{ github.repository }}
         branch: ${{ github.head_ref || github.ref_name }}
-        file_pattern: "docs/*.svg"
+        file_pattern: docs/coverage.svg
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
