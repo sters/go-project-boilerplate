@@ -11,7 +11,7 @@ import (
 	"github.com/sters/go-project-boilerplate/boilerplate"
 )
 
-// nolint: gochecknoglobals
+//nolint:gochecknoglobals
 var (
 	version = "dev"
 	commit  = "none"
