@@ -22,7 +22,6 @@ func getVersion() string {
 		return version
 	}
 
-	// go installでビルドされた場合、debug.BuildInfoから情報を取得
 	if info, ok := debug.ReadBuildInfo(); ok {
 		if info.Main.Version != "" && info.Main.Version != "(devel)" {
 			return info.Main.Version
@@ -36,12 +35,11 @@ func getCommit() string {
 		return commit
 	}
 
-	// go installでビルドされた場合、VCS情報から取得
 	if info, ok := debug.ReadBuildInfo(); ok {
 		for _, setting := range info.Settings {
 			if setting.Key == "vcs.revision" {
 				if len(setting.Value) > 7 {
-					return setting.Value[:7] // 短縮形にする
+					return setting.Value[:7]
 				}
 				return setting.Value
 			}
@@ -55,7 +53,6 @@ func getDate() string {
 		return date
 	}
 
-	// go installでビルドされた場合、VCS情報から取得
 	if info, ok := debug.ReadBuildInfo(); ok {
 		for _, setting := range info.Settings {
 			if setting.Key == "vcs.time" {
