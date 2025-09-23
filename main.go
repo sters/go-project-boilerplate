@@ -11,6 +11,7 @@ import (
 	"github.com/sters/go-project-boilerplate/boilerplate"
 )
 
+// nolint: gochecknoglobals
 var (
 	version = "dev"
 	commit  = "none"
@@ -27,6 +28,7 @@ func getVersion() string {
 			return info.Main.Version
 		}
 	}
+
 	return version
 }
 
@@ -41,10 +43,12 @@ func getCommit() string {
 				if len(setting.Value) > 7 {
 					return setting.Value[:7]
 				}
+
 				return setting.Value
 			}
 		}
 	}
+
 	return commit
 }
 
@@ -59,10 +63,12 @@ func getDate() string {
 				if t, err := time.Parse(time.RFC3339, setting.Value); err == nil {
 					return t.UTC().Format("2006-01-02T15:04:05Z")
 				}
+
 				return setting.Value
 			}
 		}
 	}
+
 	return date
 }
 
