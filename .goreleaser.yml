@@ -1,7 +1,8 @@
 version: 2
 
 release:
-  mode: append
+  draft: false
+  use_existing_draft: true
 
 builds:
 - env:
