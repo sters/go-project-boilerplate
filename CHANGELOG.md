@@ -1,5 +1,7 @@
 # Changelog
 
+## [v0.5.3](https://github.com/sters/go-project-boilerplate/compare/v0.5.2...v0.5.3) - 2026-02-08
+
 ## [v0.5.2](https://github.com/sters/go-project-boilerplate/compare/v0.5.1...v0.5.2) - 2026-02-07
 - Bump actions/setup-go from 5 to 6 by @dependabot[bot] in https://github.com/sters/go-project-boilerplate/pull/47
 - Bump actions/attest-build-provenance from 2 to 3 by @dependabot[bot] in https://github.com/sters/go-project-boilerplate/pull/46
