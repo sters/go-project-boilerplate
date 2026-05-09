@@ -4,6 +4,7 @@
 [![coverage](docs/coverage.svg)](https://github.com/sters/go-project-boilerplate)
 [![go-report](https://goreportcard.com/badge/github.com/sters/go-project-boilerplate)](https://goreportcard.com/report/github.com/sters/go-project-boilerplate)
 [![Go Reference](https://pkg.go.dev/badge/github.com/sters/go-project-boilerplate.svg)](https://pkg.go.dev/github.com/sters/go-project-boilerplate)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 My go project boilerplate.
 
