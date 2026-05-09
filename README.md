@@ -3,6 +3,7 @@
 [![go](https://github.com/sters/go-project-boilerplate/workflows/Go/badge.svg)](https://github.com/sters/go-project-boilerplate/actions?query=workflow%3AGo)
 [![coverage](docs/coverage.svg)](https://github.com/sters/go-project-boilerplate)
 [![go-report](https://goreportcard.com/badge/github.com/sters/go-project-boilerplate)](https://goreportcard.com/report/github.com/sters/go-project-boilerplate)
+[![Go Reference](https://pkg.go.dev/badge/github.com/sters/go-project-boilerplate.svg)](https://pkg.go.dev/github.com/sters/go-project-boilerplate)
 
 My go project boilerplate.
 
