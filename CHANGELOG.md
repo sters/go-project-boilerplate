@@ -1,5 +1,7 @@
 # Changelog
 
+## [v0.5.5](https://github.com/sters/go-project-boilerplate/compare/v0.5.4...v0.5.5) - 2026-10-05
+
 ## [v0.5.4](https://github.com/sters/go-project-boilerplate/compare/v0.5.3...v0.5.4) - 2026-10-03
 
 - Bump actions/attest-build-provenance from 3 to 4 by @dependabot[bot] in https://github.com/sters/go-project-boilerplate/pull/51
